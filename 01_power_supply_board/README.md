@@ -27,3 +27,11 @@ This project is a non-isolated AC to DC power supply using a capacitive dropper 
 - Importance of safety in high-voltage design  
 - Role of protection components like fuse and bleeder resistor  
 - PCB spacing considerations for high voltage circuits  
+
+## Images
+
+### Schematic
+![Schematic](schematic.png)
+
+### PCB Layout
+![PCB](pcb_layout.png)
