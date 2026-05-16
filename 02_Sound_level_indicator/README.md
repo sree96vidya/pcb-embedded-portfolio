@@ -75,6 +75,12 @@ It was recreated from a college mini-project and redesigned in KiCad to verify t
 - PCB routing and trace width optimization
 - ERC/DRC debugging in KiCad
 
+## Project Files
+- KiCad Schematic
+- KiCad PCB Layout
+- KiCad Project Files
+- PCB Render Images
+  
 ## Images
 
 ### Schematic
@@ -89,5 +95,11 @@ It was recreated from a college mini-project and redesigned in KiCad to verify t
 ### 3D Back View
 ![3D Back](3d_back.png)
 
+## Future Improvements
+- Add LM3915/LM358 based version for improved performance
+- Add microphone input stage
+- Add adjustable LED response speed
+- Design double-layer compact version
+  
 ## 📌 Note
 This project was recreated as part of my PCB design and embedded systems learning journey to practice schematic capture, PCB layout, grounding techniques, and hardware debugging.
