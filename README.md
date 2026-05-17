@@ -35,7 +35,30 @@ To build a strong foundation in:
 
 ---
 
-### 2. MOSFET Load Switch
+### 2. Sound Level Indicator / Dancing LEDs
+🟢 Status: Completed  
+
+A transistor-based audio reactive LED indicator circuit designed to visualize sound intensity levels using multiple transistor switching stages.
+
+#### Features
+- Audio signal amplification
+- Multi-stage transistor switching
+- Progressive LED indication
+- Adjustable sensitivity control
+- Ground pour based PCB design
+- 3D PCB render and KiCad source files included
+
+#### Key Learnings
+- Analog signal processing
+- PCB grounding techniques
+- ERC/DRC debugging in KiCad
+- Trace width and power routing considerations
+
+➡️ [View Project](./02_Sound_level_indicator)
+
+---
+
+### 3. MOSFET Load Switch
 🟡 Status: In Progress  
 - Low-side switching using N-channel MOSFET  
 - Designed for controlling DC loads  
@@ -43,7 +66,7 @@ To build a strong foundation in:
 
 ---
 
-### 3. PWM Controller
+### 4. PWM Controller
 🔵 Status: Planned  
 - Variable duty cycle signal generation  
 - LED dimming / motor speed control  
@@ -57,9 +80,16 @@ To build a strong foundation in:
 - Hardware debugging techniques  
 
 ## 💡 Key Learnings So Far
-- AC to DC conversion using passive components  
-- Importance of safety in high-voltage design  
-- Role of component placement in PCB performance  
+- AC to DC conversion using passive components
+- High-voltage protection and safety considerations
+- Analog signal amplification using transistor stages
+- Multi-stage transistor switching concepts
+- Importance of grounding and copper pours in PCB design
+- PCB trace width optimization for signal and power routing
+- ERC/DRC debugging and schematic verification in KiCad
+- Component placement and routing strategies for through-hole PCBs
+- Power distribution and grounding practices in analog circuits
+- Project documentation and version management using GitHub  
 
 ## 📌 Note
 This portfolio is actively maintained and updated as I continue to design, test, and improve hardware systems.
