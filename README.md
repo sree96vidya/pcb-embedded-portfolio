@@ -58,16 +58,24 @@ A transistor-based audio reactive LED indicator circuit designed to visualize so
 
 ---
 
-### 3. MOSFET Load Switch
-🟡 Status: In Progress  
-- Low-side switching using N-channel MOSFET  
-- Designed for controlling DC loads  
-- Includes flyback protection  
+### 3. Logic-Level N-Channel MOSFET Load Switch
+🟢 Status: Completed  
+
+Designed and developed a compact Logic-Level N-Channel MOSFET Load Switch in KiCad to control a 12 V DC load using a 5 V logic input. The project demonstrates low-side switching using an IRLZ44N logic-level N-channel MOSFET and incorporates essential protection circuitry for reliable operation. 
+
+#### Key Learnings
+- Designed a low-side switching circuit using the IRLZ44N logic-level N-channel MOSFET.
+- Implemented gate protection using a 100 Ω gate resistor and a 10 kΩ gate pull-down resistor.
+- Integrated a 1N4007 flyback diode to protect the MOSFET from inductive voltage spikes.
+- Designed a compact 40 × 40 mm single-layer PCB with optimized component placement and bottom-layer routing.
+- Strengthened understanding of power electronics, logic-level MOSFET operation, and single-layer PCB layout optimization in KiCad.
+
+➡️ [View Project](./03_logic_level_mosfet_load_switch)
 
 ---
 
 ### 4. PWM Controller
-🔵 Status: Planned  
+🟡 Status: In Progress 
 - Variable duty cycle signal generation  
 - LED dimming / motor speed control  
 
@@ -81,15 +89,15 @@ A transistor-based audio reactive LED indicator circuit designed to visualize so
 
 ## 💡 Key Learnings So Far
 - AC to DC conversion using passive components
-- High-voltage protection and safety considerations
 - Analog signal amplification using transistor stages
 - Multi-stage transistor switching concepts
+- Logic-level MOSFET switching and power electronics fundamentals
+- High-voltage protection and safety considerations
 - Importance of grounding and copper pours in PCB design
 - PCB trace width optimization for signal and power routing
-- ERC/DRC debugging and schematic verification in KiCad
 - Component placement and routing strategies for through-hole PCBs
-- Power distribution and grounding practices in analog circuits
-- Project documentation and version management using GitHub  
+- ERC/DRC debugging and schematic verification in KiCad
+- Project documentation and version management using GitHub 
 
 ## 📌 Note
 This portfolio is actively maintained and updated as I continue to design, test, and improve hardware systems.
