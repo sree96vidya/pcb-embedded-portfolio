@@ -63,19 +63,19 @@ A **1N4007 flyback diode** is connected across the load to suppress reverse volt
 
 ### Schematic
 
-![Schematic](Images/schematic.png)
+![schematic](Images/schematic.png)
 
 ### PCB Layout
 
-![PCB Layout](Images/pcb_layout.png)
+![pcb_layout](Images/pcb_layout.png)
 
 ### 3D Front View
 
-![3D Front](Images/3d_front.png)
+![3d_front](Images/3d_front.png)
 
 ### 3D Back View
 
-![3D Back](Images/3d_back.png)
+![3d_back](Images/3d_back.png)
 
 ---
 
