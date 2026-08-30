@@ -76,6 +76,7 @@ Designed and developed a compact Logic-Level N-Channel MOSFET Load Switch in KiC
 
 ### 4. PWM Motor Controller
 🟢 Status: Completed
+
 Designed and developed a compact PWM Motor Controller using the NE555 timer IC to regulate the speed of a 12 V DC motor. The project generates a variable PWM signal with an adjustable duty cycle and uses an IRLZ44N logic-level MOSFET for efficient motor switching. The design also incorporates protection circuitry and PCB layout techniques for reliable operation.
 
 #### Features
