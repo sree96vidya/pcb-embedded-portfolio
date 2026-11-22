@@ -65,3 +65,29 @@ The project focuses on microcontroller-based hardware design, power distribution
 ---
 
 ## Images
+
+### Schematic
+
+<p align="center">
+  <img src="MCU_Schematic.png" alt="MCU Schematic" width="900">
+</p>
+
+### Layout
+
+<p align="center">
+  <img src="MCU_Layout.png" alt="PCB Layout" width="700">
+</p>
+
+### 3D View (Front)
+
+<p align="center">
+  <img src="MCU_3D_Front.png" alt="3D Front View" width="700">
+</p>
+
+### 3D View (Back)
+
+<p align="center">
+  <img src="MCU_3D_Back.png" alt="3D Back View" width="700">
+</p>
+
+---
