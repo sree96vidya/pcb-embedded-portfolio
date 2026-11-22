@@ -100,17 +100,40 @@ Designed and developed a compact PWM Motor Controller using the NE555 timer IC t
 ---
 
 ### 5. MCU Development Board
-🔵 Status: Planned
+🟢 Status: Completed
 
-A custom microcontroller development board designed to strengthen my embedded systems and PCB design skills. The project will focus on schematic design, PCB layout, programming interfaces, power regulation, and peripheral integration.
+Designed a custom STM32F103C8T6 microcontroller development board using KiCad. The project integrates onboard voltage regulation, clock generation, reset and boot configuration, an SWD programming/debugging interface, and GPIO expansion headers. The design focuses on microcontroller hardware integration and PCB layout techniques.
 
-#### Planned Features
-- Microcontroller-based embedded system
-- On-board voltage regulation
-- Programming and debugging interface
+#### Features
+
+- STM32F103C8T6 ARM Cortex-M3 microcontroller
+- Micro-USB 5V power input
+- AMS1117-3.3V onboard voltage regulation
+- External crystal clock circuit
+- Reset and BOOT0 configuration
+- SWD programming and debugging interface
 - GPIO expansion headers
-- Status LEDs and user input
-- Compact PCB layout
+- Power and user status LEDs
+- Reset and user input buttons
+- Four M3 mechanical mounting holes
+- Two-layer PCB layout with bottom-layer GND copper pour
+- KiCad schematic, PCB layout, and 3D render files
+
+#### Key Learnings
+
+- Understanding STM32 microcontroller power, clock, reset, and boot
+  requirements.
+- Designing decoupling and voltage regulation circuits for
+  microcontroller-based systems.
+- Understanding SWD programming and debugging interfaces.
+- Planning GPIO expansion for future sensor and peripheral
+  integration.
+- Improving PCB routing techniques for fine-pitch SMD components.
+- Applying mechanical mounting and clearance considerations in PCB
+  design.
+- Performing ERC and DRC verification using KiCad.
+
+➡️ [View Project](./05_MCU_Development_Board)
 
 ---
 
@@ -127,10 +150,16 @@ A custom microcontroller development board designed to strengthen my embedded sy
 - Logic-level MOSFET switching and power electronics fundamentals
 - PWM generation and DC motor speed control using the NE555 timer
 - Reverse polarity and flyback protection techniques for reliable circuit operation
+- STM32 microcontroller hardware integration
+- Microcontroller power regulation, decoupling, clock, reset, and boot configuration
+- SWD programming and debugging interface design
+- GPIO expansion and peripheral interfacing
 - High-voltage protection and safety considerations
 - Importance of grounding and copper pours in PCB design
 - PCB trace width optimization for signal and power routing
-- Component placement and routing strategies for through-hole PCBs
+- Component placement and routing strategies for through-hole and SMD PCBs
+- Fine-pitch component routing and clearance optimization
+- Mechanical mounting and PCB assembly considerations
 - ERC/DRC debugging and schematic verification in KiCad
 - Project documentation and version management using GitHub
 
