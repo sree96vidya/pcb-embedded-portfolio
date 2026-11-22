@@ -5,7 +5,8 @@ I am an aspiring hardware engineer focused on PCB design, soldering theory, and 
 This repository documents my structured, hands-on learning journey through progressively complex hardware projects.
 
 ## 🚀 Roadmap
-This portfolio follows a structured 6-month plan to design and develop PCB projects with increasing complexity, covering both hardware and embedded systems.
+This portfolio documents my ongoing learning and development in PCB design and embedded systems through a series of progressively complex hardware projects. Each
+project builds on the knowledge gained from previous designs, covering schematic development, PCB layout, circuit design, and embedded systems fundamentals.
 
 ## 🎯 Objective
 To build a strong foundation in:
